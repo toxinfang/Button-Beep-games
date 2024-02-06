@@ -6,7 +6,7 @@ public class ButtonManager : MonoBehaviour
 {
     public void PlayGame()
     {
-        SceneManager.LoadSceneAsync(1); // this is for the play button it loads the main scene
+        SceneManager.LoadSceneAsync(4); // this is for the play button it loads the main scene
         
     }
 
