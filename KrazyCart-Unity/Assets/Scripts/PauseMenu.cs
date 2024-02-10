@@ -11,16 +11,28 @@ public class PauseMenu : MonoBehaviour
     {
         
     }
-
+    //EA- I changed the code a little since we aren't able to
+    // click the button due to the camera
     public void Pause()
     {
-        PausePanel.SetActive(true);
-        Time.timeScale = 0;
-    }
+        if (Input.GetKeyUp(KeyCode.Escape))
+        {
+            PausePanel.SetActive(true);
+            Time.timeScale = 0;
 
-    public void Continue()
-    {
-        PausePanel.SetActive(false);
-        Time.timeScale = 1;
-    }
+        }
+        else
+        {
+            PausePanel.SetActive(false);
+            Time.timeScale = 1;
+        }
+     
+    } 
+  
+
+    //public void Continue()
+   // {
+      //  PausePanel.SetActive(false);
+        //Time.timeScale = 1;
+    //}
 }

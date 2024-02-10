@@ -17,4 +17,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/CreditsScreen.unity
     guid: 998a3ce5ae863b34cb88d8805b23007a
-  m_configObjects: {}
+  - enabled: 1
+    path: Assets/OutdoorsScene2.unity
+    guid: 011ddbe306420c548b63b512aa7cb495
+  m_configObjects:
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 58598081b8148434d8727b4870a790f7,
+      type: 2}
