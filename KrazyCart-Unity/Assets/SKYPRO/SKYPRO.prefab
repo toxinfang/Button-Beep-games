@@ -96,7 +96,7 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 1, g: 0.7507093, b: 0.3641637, a: 1}
+  m_Color: {r: 1, g: 0.88408685, b: 0.7161615, a: 1}
   m_Intensity: 3
   m_Range: 10
   m_SpotAngle: 30
@@ -196,5 +196,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sunIntensity: 3
-  dayColour: {r: 1, g: 0.98039216, b: 0.8235294, a: 1}
-  eveningColour: {r: 1, g: 0.69411767, b: 0.2509804, a: 1}
+  dayColour: {r: 1, g: 1, b: 1, a: 1}
+  eveningColour: {r: 1, g: 0.855527, b: 0.6462264, a: 1}
