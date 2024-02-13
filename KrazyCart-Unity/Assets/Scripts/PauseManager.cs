@@ -25,7 +25,7 @@ public class PauseManager : MonoBehaviour
     void Update()
     {
         // Check for the 'P' key press
-        if (Input.GetKeyDown(KeyCode.P)){
+        if (Input.GetKeyDown(KeyCode.Escape)){
             // Toggle pause state
             TogglePause();
             soundClip.PlayOneShot(soundEffect); // Plays the sound effect after pressing the Pause key
