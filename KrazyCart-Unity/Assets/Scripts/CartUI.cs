@@ -15,6 +15,6 @@ public class CartUI : MonoBehaviour
 
     public void updateCartText(CartCollection cartCollection)
     {
-        cartText.text = cartCollection.NumberOfCarts.ToString();
+        cartText.text = cartCollection.NumberOfCarts.ToString() + " /11";
     }
 }
