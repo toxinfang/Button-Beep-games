@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 262.38358, g: 325.10843, b: 430.30963, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -157,7 +157,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -460.1543, y: 156.6911}
+  m_AnchoredPosition: {x: -460.1543, y: 472}
   m_SizeDelta: {x: 418.5362, y: 122.8454}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &82432672
@@ -180,19 +180,14 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Move (Front) W Key
-
-    Move (Back) S Key
-
-    Move (Left) A Key
-
-    Move
-    (Right) D Key
-
-    Dash Shift Key'
+  m_text: "\nSettings\nVolume Slider here\n\nControls\nMove (Front) W Key\t\nMove
+    (Back) S Key\nMove (Left) A Key\nMove (Right) D Key\nDash Shift Key\n\nHow to
+    play \nPlay as a grocery store employee running around the parking lot of your
+    store collecting carts to bring back to the store corral. \n\n\r\n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 7647223ccb18f074e8e21b2084ba9658, type: 2}
+  m_sharedMaterial: {fileID: -3412878669142060079, guid: 7647223ccb18f074e8e21b2084ba9658,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -216,8 +211,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 45
+  m_fontSizeBase: 45
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -277,6 +272,7 @@ GameObject:
   - component: {fileID: 531260615}
   - component: {fileID: 531260614}
   - component: {fileID: 531260613}
+  - component: {fileID: 531260616}
   m_Layer: 0
   m_Name: Directional Light
   m_TagString: Untagged
@@ -483,6 +479,29 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!114 &531260616
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 531260612}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Version: 3
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_LightLayerMask: 1
+  m_RenderingLayers: 1
+  m_CustomShadowLayers: 0
+  m_ShadowLayerMask: 1
+  m_ShadowRenderingLayers: 1
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
+  m_SoftShadowQuality: 0
 --- !u!1 &674119380
 GameObject:
   m_ObjectHideFlags: 0
